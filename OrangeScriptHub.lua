@@ -28,11 +28,11 @@ GamesSection:NewButton("Prision Life", "Tiger Admin", function()
 end)
 
 GamesSection:NewButton("Natural Disaster", "Natural Disaster Scripts", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
 end)
 
 GamesSection:NewButton("PLS Donate", "PLS Donate scripts", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
 end)
 
 --Main3
