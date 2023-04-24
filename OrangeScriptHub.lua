@@ -27,7 +27,7 @@ GamesSection:NewButton("Prision Life", "Tiger Admin", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
 end)
 
-GamesSection:NewButton("Natural Disaster", "Natural Disaster Scripts", function()
+GamesSection:NewButton("Natural Disaster", "NDS Hub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
 end)
 
