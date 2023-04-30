@@ -37,7 +37,7 @@ end)
 
 --Main 3
 
-local Fe     = Window:NewTab("FeScripts")
+local Fe     = Window:NewTab("Fe")
 local FeScriptsSection = Fe:NewSection("List of Fe Scripts")
 
 FeScriptsSection:NewButton("PLS Donate", "PLS Donate scripts", function()
