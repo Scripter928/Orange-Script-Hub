@@ -35,7 +35,16 @@ GamesSection:NewButton("PLS Donate", "PLS Donate scripts", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
 end)
 
---Main3
+--Main 3
+
+local FeScripts        = Window:NewTab("FeScripts")
+local FeScriptsSection = Universal:NewSection("List of Fe Scripts")
+
+FeScriptsSection:NewButton("PLS Donate", "PLS Donate scripts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HubbyScripts/FE-Trolling-Hub/main/source"))()
+end)
+
+--Main4
 
 local Universal        = Window:NewTab("Universal")
 local UniversalSection = Universal:NewSection("Universal Scripts")
