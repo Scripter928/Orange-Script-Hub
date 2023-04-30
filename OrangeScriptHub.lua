@@ -40,7 +40,7 @@ end)
 local Fe     = Window:NewTab("Fe")
 local FeScriptsSection = Fe:NewSection("List of Fe Scripts")
 
-FeScriptsSection:NewButton("PLS Donate", "PLS Donate scripts", function()
+FeScriptsSection:NewButton("Acrylix", "Acrylix v2.0", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HubbyScripts/FE-Trolling-Hub/main/source"))()
 end)
 
