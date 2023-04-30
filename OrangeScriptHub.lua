@@ -37,8 +37,8 @@ end)
 
 --Main 3
 
-local FeScripts        = Window:NewTab("FeScripts")
-local FeScriptsSection = FeScripts:NewSection("List of Fe Scripts")
+local Fe     = Window:NewTab("FeScripts")
+local FeScriptsSection = Fe:NewSection("List of Fe Scripts")
 
 FeScriptsSection:NewButton("PLS Donate", "PLS Donate scripts", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HubbyScripts/FE-Trolling-Hub/main/source"))()
